@@ -17,8 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build && npm install",
-    "deploy":"gh-pages -d build && npm install",
+    "predeploy":"npm run build && npm install --force",
+    "deploy":"gh-pages -d build && npm install --force",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
