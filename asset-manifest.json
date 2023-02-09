@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/apninews/static/css/main.31d6cfe0.css",
+    "main.js": "/apninews/static/js/main.f899260a.js",
+    "static/js/787.4c026eef.chunk.js": "/apninews/static/js/787.4c026eef.chunk.js",
+    "index.html": "/apninews/index.html",
+    "main.f899260a.js.map": "/apninews/static/js/main.f899260a.js.map",
+    "787.4c026eef.chunk.js.map": "/apninews/static/js/787.4c026eef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.f899260a.js"
+  ]
+}
