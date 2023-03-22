@@ -6,7 +6,6 @@ import LoadingBar from "react-top-loading-bar";
 
 const App = ()=> {
   const pageSize = 9;
-  const apiKey =  process.env.apiKey;
 
   const [progress,setProgress] = useState(0);
   
@@ -21,7 +20,6 @@ const App = ()=> {
             element={
               <News
                 setProgress={setProgress} 
-                apiKey={apiKey}
                 key="business"
                 pageSize={pageSize}
                 country="in"
@@ -35,7 +33,6 @@ const App = ()=> {
             element={
               <News
                 setProgress={setProgress} 
-                apiKey={apiKey}
                 key="business"
                 pageSize={pageSize}
                 country="in"
@@ -49,7 +46,6 @@ const App = ()=> {
             element={
               <News
                 setProgress={setProgress} 
-                apiKey={apiKey}
                 key="entertainment"
                 pageSize={pageSize}
                 country="in"
@@ -63,7 +59,6 @@ const App = ()=> {
             element={
               <News
                 setProgress={setProgress} 
-                apiKey={apiKey}
                 key="health"
                 pageSize={pageSize}
                 country="in"
@@ -77,7 +72,6 @@ const App = ()=> {
             element={
               <News
                 setProgress={setProgress} 
-                apiKey={apiKey}
                 key="general"
                 pageSize={pageSize}
                 country="in"
@@ -91,7 +85,6 @@ const App = ()=> {
             element={
               <News
                 setProgress={setProgress} 
-                apiKey={apiKey}
                 key="science"
                 pageSize={pageSize}
                 country="in"
@@ -105,7 +98,6 @@ const App = ()=> {
             element={
               <News
                 setProgress={setProgress} 
-                apiKey={apiKey}
                 key="sports"
                 pageSize={pageSize}
                 country="in"
@@ -119,7 +111,6 @@ const App = ()=> {
             element={
               <News
                 setProgress={setProgress} 
-                apiKey={apiKey}
                 key="technology"
                 pageSize={pageSize}
                 country="in"
